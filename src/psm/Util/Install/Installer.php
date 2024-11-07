@@ -240,7 +240,7 @@ class Installer
                 `user_id` INT( 11 ) UNSIGNED NOT NULL ,
                 `server_id` INT( 11 ) UNSIGNED NOT NULL ,
                 PRIMARY KEY ( `user_id` , `server_id` )
-            ) ENGINE = MyISAM DEFAULT CHARSET=utf8;",
+            ) DEFAULT CHARSET=utf8;",
             PSM_DB_PREFIX . 'log' => "CREATE TABLE `" . PSM_DB_PREFIX . "log` (
                 `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
                 `server_id` int(11) unsigned NOT NULL,
