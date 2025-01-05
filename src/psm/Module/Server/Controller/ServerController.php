@@ -149,6 +149,8 @@ class ServerController extends AbstractServerController
         $tpl_data['edit_pushover_selected'] = psm_get_conf('pushover_status') ? 'yes' : 'no';
         $tpl_data['edit_telegram_selected'] = psm_get_conf('telegram_status') ? 'yes' : 'no';
         $tpl_data['edit_jabber_selected'] = psm_get_conf('jabber_status') ? 'yes' : 'no';
+	$tpl_data['edit_discord_selected'] = psm_get_conf('discord_status') ? 'yes' : 'no';
+        $tpl_data['edit_webhook_selected'] = psm_get_conf('webhook_status') ? 'yes' : 'no';
     }
 
     /**
