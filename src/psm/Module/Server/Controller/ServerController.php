@@ -141,6 +141,17 @@ class ServerController extends AbstractServerController
     }
 
     /**
+     * Set default monitoring dropdown selections to configured values.
+     */
+    private static function setDefaultMonitoringNotificationsToConfiguredValues( array &$tpl_data ): void {
+        $tpl_data['edit_email_selected'] = psm_get_conf('email_status') ? 'yes' : 'no';
+        $tpl_data['edit_sms_selected'] = psm_get_conf('sms_status') ? 'yes' : 'no';
+        $tpl_data['edit_pushover_selected'] = psm_get_conf('pushover_status') ? 'yes' : 'no';
+        $tpl_data['edit_telegram_selected'] = psm_get_conf('telegram_status') ? 'yes' : 'no';
+        $tpl_data['edit_jabber_selected'] = psm_get_conf('jabber_status') ? 'yes' : 'no';
+    }
+
+    /**
      * Prepare the template to show the update screen for a single server
      */
     protected function executeEdit()
@@ -154,6 +165,8 @@ class ServerController extends AbstractServerController
         $modal->setOKButtonLabel(psm_get_lang('system', 'delete'));
 
         $tpl_data = $this->getLabels();
+        self::setDefaultMonitoringNotificationsToConfiguredValues( $tpl_data );
+
         $tpl_data['edit_server_id'] = $this->server_id;
         $tpl_data['url_save'] = psm_build_url(array(
             'mod' => 'server',
