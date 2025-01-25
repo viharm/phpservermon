@@ -525,31 +525,6 @@ $sm_lang = array(
         'on_jabber_message' => 'Serwer \'%LABEL%\' znów działa poprawnie, był offline przez
  %LAST_OFFLINE_DURATION%:<br><br>Serwer: %LABEL%<br>IP: %IP%<br>Port: %PORT%<br>Data:
  %DATE%',
-        'combi_off_email_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port: %PORT%</li><li>Error:
- %ERROR%</li><li>Date: %DATE%</li></ul>',
-        'combi_off_discord_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Error: %ERROR%<br>-
- Date: %DATE%<br><br>',
-        'combi_off_webhook_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port: %PORT%</li><li>Error:
- %ERROR%</li><li>Date: %DATE%</li></ul>',
-        'combi_off_pushover_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port: %PORT%</li><li>Error:
- %ERROR%</li><li>Date: %DATE%</li></ul>',
-        'combi_off_telegram_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Error: %ERROR%<br>-
- Date: %DATE%<br><br>',
-        'combi_off_jabber_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Error: %ERROR%<br>-
- Date: %DATE%<br><br>',
-        'combi_on_email_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port: %PORT%</li><li>Downtime:
- %LAST_OFFLINE_DURATION%</li><li>Date: %DATE%</li></ul>',
-        'combi_on_webhook_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port: %PORT%</li><li>Downtime:
- %LAST_OFFLINE_DURATION%</li><li>Date: %DATE%</li></ul>',
-        'combi_on_discord_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Downtime:
- %LAST_OFFLINE_DURATION%<br>- Date: %DATE%<br><br>',
-        'combi_on_pushover_message' => '<ul><li>Server: %LABEL%</li><li>IP: %IP%</li><li>Port:
- %PORT%</li><li>Downtime: %LAST_OFFLINE_DURATION%</li><li>Date:
- %DATE%</li></ul>',
-        'combi_on_telegram_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Downtime:
- %LAST_OFFLINE_DURATION%<br>- Date: %DATE%<br><br>',
-        'combi_on_jabber_message' => '- Server: %LABEL%<br>- IP: %IP%<br>- Port: %PORT%<br>- Downtime:
- %LAST_OFFLINE_DURATION%<br>- Date: %DATE%<br><br>',
         'combi_email_subject' => 'WAŻNE: \'%UP%\' serverów znowu ONLINE, \'%DOWN%\' serverów jest OFFLINE',
         'combi_webhook_subject' => '\'%UP%\' serverów jest znowu ONLINE UP, \'%DOWN%\' serverów jest OFFLINE',
         'combi_pushover_subject' => '\'%UP%\' serverów jest znowu ONLINE UP, \'%DOWN%\' serverów jest OFFLINE',
