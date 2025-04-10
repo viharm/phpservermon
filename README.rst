@@ -2,12 +2,15 @@ PHP Server Monitor
 ==================
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
-   :alt: Join the chat at https://gitter.im/erickrf/nlpnet
+   :alt: Join the chat at https://gitter.im/phpservermon/phpservermon
    :target: https://gitter.im/phpservermon/phpservermon
-.. image:: https://cdn.huntr.dev/huntr_security_badge_mono.svg
-   :alt: huntr
-   :target: https://huntr.dev
-Version 3.6.0.beta2
+
+.. image:: https://img.shields.io/discord/1359923330798456992?logo=discord&logoColor=white&label=Discord&labelColor=%235865F2&link=https%3A%2F%2Fdiscord.gg%2FRv7nRP4HVq
+   :alt: Join the discord at https://discord.gg/Rv7nRP4HVq
+   :target: https://discord.gg/Rv7nRP4HVq
+
+Version
+3.6.0.beta2
 
 PHP Server Monitor is a script that checks whether your websites and servers are up and running.
 It comes with a web based user interface where you can manage your services and websites,
@@ -70,6 +73,14 @@ The following SMS gateways are currently available:
 * Tele2 Messaging - <https://portal.tele2messaging.com>
 
 Please note: for these gateways you will need an account with sufficient credits.
+
+
+Join the community
+------------------
+
+.. image:: https://discord.com/api/guilds/1359923330798456992/widget.png?style=banner4
+   :alt: Join the discord at https://discord.gg/Rv7nRP4HVq
+   :target: https://discord.gg/Rv7nRP4HVq
 
 
 Download
